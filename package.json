@@ -1,0 +1,19 @@
+{
+  "name": "simple-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handlers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacob-DeCrane/simple-pipeline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacob-DeCrane/simple-pipeline/issues"
+  },
+  "homepage": "https://github.com/Jacob-DeCrane/simple-pipeline#readme"
+}

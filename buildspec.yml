@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      # install dependencies
+      - npm install --silent --progress-false
+      - npm --version
+  # build:
+  #   commands:
+      # # create directory for deployment packages
+      # - mkdir artifacts
+      # # create dev deployment package
+      # - mkdir artifacts/dev
+      # - serverless package --package artifacts/dev --stage dev -v
+      # # create qa deployment package
+      # - mkdir artifacts/qa
+      # - serverless package --package artifacts/qa --stage qa -v
+      # # Copy the zip file from the original artifacts into the new environment package
+      # - cp artifacts/dev/*.zip artifacts/qa
+
+artifacts:
+  files:
+    # export artifacts needed for dev and qa deployments to an S3 bucket
+    - handler.js
