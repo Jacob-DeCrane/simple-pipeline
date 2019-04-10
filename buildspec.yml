@@ -22,4 +22,4 @@ phases:
 artifacts:
   files:
     # export artifacts needed for dev and qa deployments to an S3 bucket
-    - handler.js
+    - handlers.js
